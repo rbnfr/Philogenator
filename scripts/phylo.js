@@ -11,6 +11,10 @@ $(document).ready(function(){
    });
 
  function processResult(apiResult){
+   var blob = new Blob([apiResult], {type: "text/plain;charset=utf-8"});
+   var filename = "filename";
+   saveAs(blob, filename+".txt");
+  //  alert(apiResult.query.search.length);
     for (var i = 0; i < apiResult.query.search.length; i++){
          $('.result').append('<p>'+apiResult.query.search[i].title+'</p>');
     }
