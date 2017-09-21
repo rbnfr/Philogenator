@@ -1,0 +1,40 @@
+body, html{
+  padding : 0;
+  margin : 0;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  align-content: center;
+}
+
+.toolbar{
+  width : 100%;
+  height: 50px;
+  background-color: cornflowerblue;
+  color : white;
+}
+
+
+.search{
+  float: right;
+  margin-top: 13px;
+  margin-right: 10px;
+}
+
+.title{
+  float: left;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding: 1%;
+}
+
+.search-button{
+  float: right;
+  margin-top: 13px;
+  margin.right: 10px;
+}
+
+.result{
+  padding: 1%;
+}
