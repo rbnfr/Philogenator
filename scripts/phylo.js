@@ -10,6 +10,8 @@ $(document).ready(function(){
            $.get($("input[name=search]",function(){
              var tableData = $("tr.infobox").children("td").map(function() {
                 return $(this).text();
+                
+                alert(tabledata);
               }).get();
        });
 
